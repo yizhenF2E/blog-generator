@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>hexo使用教程 | 盈谷前端交流</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="hexo 使用教程，点击看更多！">
+<meta name="keywords" content="hexo">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hexo使用教程">
+<meta property="og:url" content="http://yoursite.com/2017/10/09/hexo使用教程/index.html">
+<meta property="og:site_name" content="盈谷前端交流">
+<meta property="og:description" content="hexo 使用教程，点击看更多！">
+<meta property="og:updated_time" content="2017-10-09T15:01:44.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="hexo使用教程">
+<meta name="twitter:description" content="hexo 使用教程，点击看更多！">
+  
+    <link rel="alternate" href="/atom.xml" title="盈谷前端交流" type="application/atom+xml">
+  
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="/css/styles.css">
+  
+
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu-navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="main-menu-navbar">
+      <ul class="nav navbar-nav">
+        
+          <li><a class=""
+                 href="/index.html">Home</a></li>
+        
+          <li><a class=""
+                 href="/archives/">Archives</a></li>
+        
+      </ul>
+
+      <!--
+      <ul class="nav navbar-nav navbar-right">
+        
+          <li><a href="/atom.xml" title="RSS Feed"><i class="fa fa-rss"></i></a></li>
+        
+      </ul>
+      -->
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+  <div class="container">
+    <div class="blog-header">
+  <h1 class="blog-title">盈谷前端交流</h1>
+  
+</div>
+
+    <div class="row">
+        <div class="col-sm-8 blog-main">
+          <article id="post-hexo使用教程" class="article article-type-post" itemscope itemprop="blogPost">
+
+  <header class="article-header">
+    
+  
+    <h1 class="article-title" itemprop="name">
+      hexo使用教程
+    </h1>
+  
+
+
+  </header>
+
+  <div class="article-meta">
+    <div class="article-datetime">
+  <a href="/2017/10/09/hexo使用教程/" class="article-date"><time datetime="2017-10-09T14:02:20.000Z" itemprop="datePublished">2017-10-09</time></a>
+</div>
+
+    <div class="article-author">May</div>
+    
+
+  </div>
+  <div class="article-inner">
+
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>hexo 使用教程，点击看更多！</p>
+<a id="more"></a>
+<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p>想玩hexo,需要安装以下应用</p>
+<ul>
+<li><a href="https://git-scm.com/" target="_blank" rel="external">git</a></li>
+<li><a href="https://nodejs.org/en/" target="_blank" rel="external">node</a></li>
+</ul>
+<p>安装完成在终端输入</p>
+<p><code>$ npm install -g hexo-cli</code>  全局安装hexo-cli</p>
+<h1 id="准备-amp-配置"><a href="#准备-amp-配置" class="headerlink" title="准备&amp;配置"></a>准备&amp;配置</h1><ol>
+<li>在自己的githun上创建 <code>你的用户名.github.io</code> 的项目</li>
+<li><code>git clone</code> 下来这个项目到本地</li>
+<li>进入刚刚clone下来的项目，输入<code>hexo init .</code></li>
+<li><code>npm i</code>安装依赖</li>
+<li><code>hexo new 文章名</code>这里不需要加<code>.md</code>后缀</li>
+<li>创建的文章就会在<code>source/_posts/文件名.md</code></li>
+<li>修改<code>_config.yml</code><ul>
+<li>title 改为你的名字</li>
+<li>subtitle 网站副标题</li>
+<li>description 网站描述</li>
+<li>author 您的名字</li>
+<li>language 语言</li>
+<li>timezone 网站时区</li>
+<li>type 改成 git</li>
+<li>最后一样增加<code>repo: 仓库地址</code></li>
+<li>[更多配置]（<a href="https://hexo.io/zh-cn/docs/configuration.html）" target="_blank" rel="external">https://hexo.io/zh-cn/docs/configuration.html）</a></li>
+</ul>
+</li>
+</ol>
+<h1 id="指令"><a href="#指令" class="headerlink" title="指令"></a>指令</h1><table>
+<thead>
+<tr>
+<th>指令</th>
+<th>缩写</th>
+<th>功能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>hexo new XXX</td>
+<td>–</td>
+<td>创建一个XXX的文章</td>
+</tr>
+<tr>
+<td>hexo denerate</td>
+<td>hexo g</td>
+<td>生成静态文件</td>
+</tr>
+<tr>
+<td>hexo publish</td>
+<td>–</td>
+<td>发布草稿</td>
+</tr>
+<tr>
+<td>hexo server</td>
+<td>hexo s</td>
+<td>启动本地服务器（一般可以在4000端口看）</td>
+</tr>
+<tr>
+<td>hexo deploy</td>
+<td>hexo d</td>
+<td>部署网站</td>
+</tr>
+<tr>
+<td>hexo clean</td>
+<td>–</td>
+<td>清理缓存</td>
+</tr>
+</tbody>
+</table>
+<h1 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h1><p><a href="https://hexo.io/themes/index.html" target="_blank" rel="external">hexo 各种主题</a></p>
+<ol>
+<li>每个主题想相当于一个项目 需要将项目clone到themes</li>
+<li>在<code>_config.yml</code>修改<code>theme</code>为刚刚<code>clone</code>的主题</li>
+</ol>
+
+      
+    </div>
+
+    
+      
+
+    
+
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/10/09/hexo使用教程/" data-id="cj8kb2tw600002jjfnq6gzh7d" class="article-share-link">
+        <i class="fa fa-share"></i> Share
+      </a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
+
+
+    </footer>
+  </div>
+  
+    
+
+  
+</article>
+
+
+
+
+        </div>
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+          
+  <div class="sidebar-module sidebar-module-inset">
+  <h4>About</h4>
+  <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+
+</div>
+
+
+  
+
+
+  
+  <div class="sidebar-module">
+    <h4>Tags</h4>
+    <ul class="sidebar-module-list"><li class="sidebar-module-list-item"><a class="sidebar-module-list-link" href="/tags/hexo/">hexo</a><span class="sidebar-module-list-count">1</span></li></ul>
+  </div>
+
+
+
+  
+  <div class="sidebar-module">
+    <h4>Tag Cloud</h4>
+    <p class="tagcloud">
+      <a href="/tags/hexo/" style="font-size: 10px;">hexo</a>
+    </p>
+  </div>
+
+
+  
+  <div class="sidebar-module">
+    <h4>Archives</h4>
+    <ul class="sidebar-module-list"><li class="sidebar-module-list-item"><a class="sidebar-module-list-link" href="/archives/2017/10/">October 2017</a><span class="sidebar-module-list-count">1</span></li></ul>
+  </div>
+
+
+
+  
+  <div class="sidebar-module">
+    <h4>Recents</h4>
+    <ul class="sidebar-module-list">
+      
+        <li>
+          <a href="/2017/10/09/hexo使用教程/">hexo使用教程</a>
+        </li>
+      
+    </ul>
+  </div>
+
+
+
+        </div>
+    </div>
+  </div>
+  <footer class="blog-footer">
+  <div class="container">
+    <div id="footer-info" class="inner">
+      &copy; 2017 May<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+  
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js" integrity="sha384-8gBf6Y4YYq7Jx97PIqmTwLPin4hxIzQw5aDmUg/DDhul9fFpbbLcLh3nTIIDJKhx" crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
+
+<script src="/js/script.js"></script>
+
+</body>
+</html>
